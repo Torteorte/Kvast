@@ -1,0 +1,800 @@
+/* Стандартные */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    min-width: 1220px;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+b {
+    text-decoration: none;   
+    color: black; 
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+/* первый блок */
+
+.header {
+    background: url("img/wheat-back.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height: 490px;
+    padding-top: 60px;
+}
+
+.header .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.header-logo {
+    margin-left: 0;
+    width: 140px;
+    height: 76px;
+    transition-duration: 0.5s;
+}
+
+.header-logo:hover {
+    transform: scale(1.2);
+}
+
+.header-top ul {
+    width: 600px;
+    margin: 10px 0 10px 60px;
+    display: flex;
+    border-top: 1px solid #a4864d;
+    border-bottom: 1px solid #a4864d;
+    padding: 0;
+}
+
+.header-top li {
+    padding-right: 54px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-top li:last-child {
+    padding-right: 0; 
+}
+
+.header-top a {
+    color: white;
+    text-transform: uppercase;
+    height: 60px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.header-top a:hover,
+.header-top a:active,
+.footer-top a:hover,
+.footer-top a:active {
+    text-shadow: 0 0 5px rgb(255, 187, 1);
+}
+
+.header-bottom {
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    width: 800px;
+    margin: auto;
+}
+
+/* второй блок */
+
+.new-items {
+    height: 995px;
+    padding-top: 90px;
+}
+
+.new-items .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.new-items h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 85px;
+    margin-top: -2px;
+}
+
+.new-items h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-top: 5px;
+}
+
+
+.bears-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+}
+
+.bear-item {
+    padding-left: 35px;
+    padding-right: 35px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.bear-item:last-child {
+    border-right: 1px solid #e5e5e5;
+}
+
+.bear-item p {
+    color: #404040;
+}
+
+.bear-top {
+    position: relative;
+    padding-top: 2px;
+}
+
+.table-bear {
+    top: -3px;
+    right: -35px;
+    width: 160px;
+    position: absolute;
+    padding: 0 15px;
+}
+
+.table-bear table {
+    border-collapse: collapse;
+    min-width: 150px;
+    margin-bottom: 5px;
+}
+
+.table-bear td {
+    border: 1px solid #e5e5e5;
+    padding: 12px 20px 9px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.table-bear:last-child td {
+    padding: 12px 10px 9px 10px;
+}
+
+.bear-item .table-bottom {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bear-top img {
+    width: 319px;
+    height: 459px;
+    padding-left: 9px;
+}
+
+.bear-item .bear-bottom {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 77px;
+}
+
+/* второй блок кнопки */
+
+.btn {
+    padding: 15px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.left-btn {
+    color: #834700;
+    border: 2px solid #834700;
+    margin-right: 5px;
+}
+
+.left-btn:hover {
+    color: #442500;
+    border-color: #442500;
+}
+
+.left-btn:active {
+    color: black;
+    border-color: black;
+}
+
+.right-btn {
+    background-color: #834700;
+    color: white;
+    border: 2px solid #834700;
+}
+
+.right-btn:hover {
+    background-color: #8a5a01; 
+}
+
+.right-btn:active {
+    background-color: black; 
+    border-color: black;
+}
+
+p b {
+    float: right;
+}
+
+/* третий блок */
+
+.about-us-items {
+    background-color: #ffcb78;
+    min-height: 410px;
+    margin-top: -1px;
+}
+
+.about-us-items ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us-items li {
+    width: 210px;
+    padding-left: 93px;
+    margin-right: 100px;
+    margin-top: 80px;
+    padding-top: 87px;
+    position: relative;
+    border-left: solid 1px #d8b570;
+    align-content: center;
+}
+
+
+.about-us-items li:first-child {
+    border: none;
+}
+
+.about-us-items li:last-child {
+    margin-right: 90px;
+}
+
+.about-us-items h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.about-us-items p {
+    color: #625a4b;
+    line-height:30px;
+}
+
+.about-us-items li::before {
+    content: "";
+    top: 0;
+    left: 93px;
+    background: url("img/icon-brew.png") no-repeat center;
+    width: 50px;
+    height: 68px;
+    position: absolute;
+}
+
+.about-us-items li:nth-child(2)::before {
+    background: url("img/icon-matreshka.png") no-repeat center;
+    width: 46px;
+    height: 65px;
+}
+
+.about-us-items li:last-child::before {
+    background: url("img/icon-thumbsup.png") no-repeat center;
+    width: 63px;
+    height: 58px;
+}
+
+/* четвертый блок */
+
+.history-items {
+    min-height: 632px;
+    padding-top: 48px;
+}
+
+.history-items .container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.history-items h2 {
+    margin-bottom: 65px;
+    padding: 7px 0;
+}
+
+.history-items dt {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.history-items dt i {
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400; 
+    color: #444444; 
+    float: right;
+    padding-top: 3px;
+}
+
+.history-items dt a {
+    color: #834700;
+    border-bottom: 1px solid #834700;
+}
+
+.history-items dt a:hover {
+    color: cadetblue;
+    border-color: cadetblue;
+}
+
+.history-items dt a:active {
+    color:rgb(147, 95, 160);
+    border-color: rgb(147, 95, 160);
+}
+
+.history-items p {
+    color: #404040;
+    line-height: 30px;
+    width: 490px;
+}
+
+.history-items dd {
+    float: left;
+    margin-left: 0;
+    margin-bottom: 45px;
+    padding-top: 8px;
+    width: 800px;
+}
+
+.history-items img {
+    float: right;
+    margin-top: 25px;
+}
+
+
+/* пятый блок */
+
+.review-items {
+    background-color: #ede5d8;
+    min-height: 435px;
+    padding-top: 47px;
+}
+
+.review-items .container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.review-items h2 {
+    margin-bottom: 75px;
+    line-height: 60px;
+}
+
+blockquote {
+    margin-left: 0;
+    width: 800px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.review-items p:first-child {
+    color: #404040;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    line-height: 30px;
+    width: 690px;
+    margin-bottom: 50px;
+
+}
+
+blockquote i {
+    float: right;
+    text-transform: uppercase;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.review-items .btn {
+    border: 2px solid #a5a097;
+    color: #bcb6ab;
+    transition-duration: 0.3s;
+}
+
+.review-items .btn:hover {
+    border-color:#585651;
+    color: #585651;
+}
+
+.review-items .btn:active {
+    border-color:#22211f;
+    color: #22211f;
+}
+
+blockquote::before {
+    content: "";
+    position: absolute;
+    background: url("img/quotes.png") no-repeat center;
+    width: 41px;
+    height: 31px;
+    left: -105px;
+    top: 6px;
+}
+
+/* шестой блок */
+
+.assortment-items {
+    min-height: 550px;
+    padding-top: 95px;
+}
+
+.assortment-items h2 {
+    margin: 0;
+    margin-bottom: 90px;
+    padding-top: 3px;
+}
+
+
+.assortment-items .container {
+    width: 800px;
+    margin: 0 auto; 
+}
+
+.assortment-items table {
+    border-collapse: collapse;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.assortment-items th {
+    font-size: 11px;
+    color: #999999;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: left;
+    vertical-align: top;
+    height: 50px;
+    font-weight: lighter;
+}
+
+.assortment-items td {
+    border-bottom: 1px solid #e5e5e5;
+    color: #404040;
+    height: 65px;
+}
+
+.assortment-items .name-bear {
+    color: black;
+    width: 400px;
+    font-weight: 700;
+}
+
+.assortment-items td:nth-child(2) {
+    width: 90px;
+}
+
+.assortment-items td:nth-child(3) {
+    width: 60px;
+}
+
+.assortment-items th:last-child,
+.assortment-items td:last-child{
+    text-align: right;
+}
+
+.name-bear sup {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    font-size: 8px;
+    padding: 2px 5px;
+    margin-left: 20px;
+}
+
+.new-bear-assortment td {
+    height: 63px;
+}
+
+/* седьмой блок */
+
+.order {
+    background-color: #ffcb78;
+    min-height: 1105px;
+    padding-top: 80px;
+}
+
+.order .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.order h2 {
+    margin: 0;
+    padding: 5px 0 10px;
+    margin-bottom: 75px;
+}
+
+.order p {
+    line-height: 30px;
+    color: #404040;
+    width: 660px;
+    margin-bottom: 65px;
+}
+
+.order-form {
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 630px;
+    margin: 0;
+}
+
+.order-form div {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.order-form div:first-child {
+    padding-top: 0px
+}
+
+.order-form label {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.order-form div input[type="text"],
+.order-form div input[type="tel"],
+.order-form div input[type="email"],
+.order-form div select,
+.order-form div textarea {
+    height: 50px;
+    background-color: #e5b66c;
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.order-form div select {
+    color: #41341e;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.order-form option {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.number-of-phone-left {
+    float: left;
+}
+
+.number-of-phone-right {
+    float: right;
+}
+
+.number-of-phone-left, 
+.number-of-phone-right {
+    width: 290px;
+}
+
+.order-form textarea {
+    min-height: 120px;
+}
+
+.order-form input[type="checkbox"] {
+    background-color: #e5b66c;
+    margin: 0;
+    margin-right: 10px;
+}
+
+/* Для удобства класс как во втором блоки у правой кнопки */
+
+.order-form .right-btn {
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+.order-form div:last-child {
+    padding-bottom: 6px; 
+}
+
+/* восьмой блок */
+
+footer {
+    background-color: #000;
+    color: white;
+    min-height: 260px;
+    padding-top: 60px;
+}
+
+footer .container {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.footer-logo {
+    margin-left: 35px;
+    width: 140px;
+    height: 76px;
+}
+
+.footer-top ul {
+    width: 600px;
+    margin: 10px 0 10px 130px;
+    display: flex;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding: 0;
+}
+
+.footer-top li {
+    padding-right: 54px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-top li:last-child {
+    padding-right: 0; 
+}
+
+.footer-top a {
+    color: white;
+    text-transform: uppercase;
+    height: 60px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    color: #989898;
+    flex-direction: row;
+}
+
+.footer-bottom img {
+    display: none; 
+}
+
+.footer-bottom .social a {
+    display: inline-block;
+    width: 70px;
+    height: 65px;
+    font-size: 0;
+    background: #1b1b1b url("img/icon-insta.png") no-repeat center;
+    border: 1px solid #322d24;
+}
+
+.footer-bottom .social a:nth-child(2) {
+    background-image: url("img/icon-fb.png");
+}
+
+.footer-bottom .social a:nth-child(3) {
+    background-image: url("img/icon-vk.png");
+}
+
+.footer-bottom .warning,
+.footer-bottom .html-academy-text  {
+    margin: auto;
+    margin-left: 90px;
+    width: 200px;
+    font-size: 14px;
+    margin-right: 200px;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.footer-bottom .html-academy {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.html-academy .html-academy-text{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.html-academy::after {
+    width: 70px;
+    height: 70px;
+    font-size: 0;
+    background: #1b1b1b url("img/htmlacademy.png") no-repeat center;
+    border: 1px solid #322d24;
+    content: "";
+    top: 10px;
+    left: 0;
+    position: absolute;
+}
+
+.html-academy a {
+    color: #989898;
+    transition-duration: 0.3s;
+}
+
+.html-academy a:hover,
+.html-academy a:active {
+    color: white;
+}
+
+.html-academy b {
+    font-weight: bold;
+    color: #8a8a8a;
+}
+
+/* Стиил для прокрутки наверх */
+
+  .up-button {
+    position: fixed;
+    z-index: 1;
+    padding: 0;
+    top: 75px;
+    left: 90px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    border: 3px solid;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    color: #a89041;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: #d9ba53;
+    outline-color: #b6aaff;
+  }
+
+  .up-button span {
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+
+  .shown {
+    display: inline-block;
+  }
